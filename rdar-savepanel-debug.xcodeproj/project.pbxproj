@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C55455E184F34B4005B46BE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C55455D184F34B4005B46BE /* Cocoa.framework */; };
+		4C554568184F34B4005B46BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C554566184F34B4005B46BE /* InfoPlist.strings */; };
+		4C55456A184F34B4005B46BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C554569184F34B4005B46BE /* main.m */; };
+		4C55456E184F34B4005B46BE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4C55456C184F34B4005B46BE /* Credits.rtf */; };
+		4C554571184F34B4005B46BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C554570184F34B4005B46BE /* AppDelegate.m */; };
+		4C554574184F34B4005B46BE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C554572184F34B4005B46BE /* MainMenu.xib */; };
+		4C554576184F34B4005B46BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C554575184F34B4005B46BE /* Images.xcassets */; };
+		4C55457D184F34B4005B46BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C55457C184F34B4005B46BE /* XCTest.framework */; };
+		4C55457E184F34B4005B46BE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C55455D184F34B4005B46BE /* Cocoa.framework */; };
+		4C554586184F34B4005B46BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C554584184F34B4005B46BE /* InfoPlist.strings */; };
+		4C554588184F34B4005B46BE /* rdar_savepanel_debugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C554587184F34B4005B46BE /* rdar_savepanel_debugTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C55457F184F34B4005B46BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C554552184F34B4005B46BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C554559184F34B4005B46BE;
+			remoteInfo = "rdar-savepanel-debug";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C55455A184F34B4005B46BE /* rdar-savepanel-debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rdar-savepanel-debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C55455D184F34B4005B46BE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4C554560184F34B4005B46BE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4C554561184F34B4005B46BE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4C554562184F34B4005B46BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C554565184F34B4005B46BE /* rdar-savepanel-debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rdar-savepanel-debug-Info.plist"; sourceTree = "<group>"; };
+		4C554567184F34B4005B46BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C554569184F34B4005B46BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C55456B184F34B4005B46BE /* rdar-savepanel-debug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rdar-savepanel-debug-Prefix.pch"; sourceTree = "<group>"; };
+		4C55456D184F34B4005B46BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4C55456F184F34B4005B46BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C554570184F34B4005B46BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C554573184F34B4005B46BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4C554575184F34B4005B46BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C55457B184F34B4005B46BE /* rdar-savepanel-debugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rdar-savepanel-debugTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C55457C184F34B4005B46BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C554583184F34B4005B46BE /* rdar-savepanel-debugTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rdar-savepanel-debugTests-Info.plist"; sourceTree = "<group>"; };
+		4C554585184F34B4005B46BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C554587184F34B4005B46BE /* rdar_savepanel_debugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rdar_savepanel_debugTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C554557184F34B4005B46BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C55455E184F34B4005B46BE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C554578184F34B4005B46BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C55457E184F34B4005B46BE /* Cocoa.framework in Frameworks */,
+				4C55457D184F34B4005B46BE /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C554551184F34B4005B46BE = {
+			isa = PBXGroup;
+			children = (
+				4C554563184F34B4005B46BE /* rdar-savepanel-debug */,
+				4C554581184F34B4005B46BE /* rdar-savepanel-debugTests */,
+				4C55455C184F34B4005B46BE /* Frameworks */,
+				4C55455B184F34B4005B46BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C55455B184F34B4005B46BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C55455A184F34B4005B46BE /* rdar-savepanel-debug.app */,
+				4C55457B184F34B4005B46BE /* rdar-savepanel-debugTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C55455C184F34B4005B46BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C55455D184F34B4005B46BE /* Cocoa.framework */,
+				4C55457C184F34B4005B46BE /* XCTest.framework */,
+				4C55455F184F34B4005B46BE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C55455F184F34B4005B46BE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C554560184F34B4005B46BE /* AppKit.framework */,
+				4C554561184F34B4005B46BE /* CoreData.framework */,
+				4C554562184F34B4005B46BE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4C554563184F34B4005B46BE /* rdar-savepanel-debug */ = {
+			isa = PBXGroup;
+			children = (
+				4C55456F184F34B4005B46BE /* AppDelegate.h */,
+				4C554570184F34B4005B46BE /* AppDelegate.m */,
+				4C554572184F34B4005B46BE /* MainMenu.xib */,
+				4C554575184F34B4005B46BE /* Images.xcassets */,
+				4C554564184F34B4005B46BE /* Supporting Files */,
+			);
+			path = "rdar-savepanel-debug";
+			sourceTree = "<group>";
+		};
+		4C554564184F34B4005B46BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C554565184F34B4005B46BE /* rdar-savepanel-debug-Info.plist */,
+				4C554566184F34B4005B46BE /* InfoPlist.strings */,
+				4C554569184F34B4005B46BE /* main.m */,
+				4C55456B184F34B4005B46BE /* rdar-savepanel-debug-Prefix.pch */,
+				4C55456C184F34B4005B46BE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C554581184F34B4005B46BE /* rdar-savepanel-debugTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C554587184F34B4005B46BE /* rdar_savepanel_debugTests.m */,
+				4C554582184F34B4005B46BE /* Supporting Files */,
+			);
+			path = "rdar-savepanel-debugTests";
+			sourceTree = "<group>";
+		};
+		4C554582184F34B4005B46BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C554583184F34B4005B46BE /* rdar-savepanel-debugTests-Info.plist */,
+				4C554584184F34B4005B46BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C554559184F34B4005B46BE /* rdar-savepanel-debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C55458B184F34B4005B46BE /* Build configuration list for PBXNativeTarget "rdar-savepanel-debug" */;
+			buildPhases = (
+				4C554556184F34B4005B46BE /* Sources */,
+				4C554557184F34B4005B46BE /* Frameworks */,
+				4C554558184F34B4005B46BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rdar-savepanel-debug";
+			productName = "rdar-savepanel-debug";
+			productReference = 4C55455A184F34B4005B46BE /* rdar-savepanel-debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C55457A184F34B4005B46BE /* rdar-savepanel-debugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C55458E184F34B4005B46BE /* Build configuration list for PBXNativeTarget "rdar-savepanel-debugTests" */;
+			buildPhases = (
+				4C554577184F34B4005B46BE /* Sources */,
+				4C554578184F34B4005B46BE /* Frameworks */,
+				4C554579184F34B4005B46BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C554580184F34B4005B46BE /* PBXTargetDependency */,
+			);
+			name = "rdar-savepanel-debugTests";
+			productName = "rdar-savepanel-debugTests";
+			productReference = 4C55457B184F34B4005B46BE /* rdar-savepanel-debugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C554552184F34B4005B46BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Manuel \"StuFF mc\" Carrasco Molina";
+				TargetAttributes = {
+					4C55457A184F34B4005B46BE = {
+						TestTargetID = 4C554559184F34B4005B46BE;
+					};
+				};
+			};
+			buildConfigurationList = 4C554555184F34B4005B46BE /* Build configuration list for PBXProject "rdar-savepanel-debug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C554551184F34B4005B46BE;
+			productRefGroup = 4C55455B184F34B4005B46BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C554559184F34B4005B46BE /* rdar-savepanel-debug */,
+				4C55457A184F34B4005B46BE /* rdar-savepanel-debugTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C554558184F34B4005B46BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C554568184F34B4005B46BE /* InfoPlist.strings in Resources */,
+				4C554576184F34B4005B46BE /* Images.xcassets in Resources */,
+				4C55456E184F34B4005B46BE /* Credits.rtf in Resources */,
+				4C554574184F34B4005B46BE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C554579184F34B4005B46BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C554586184F34B4005B46BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C554556184F34B4005B46BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C554571184F34B4005B46BE /* AppDelegate.m in Sources */,
+				4C55456A184F34B4005B46BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C554577184F34B4005B46BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C554588184F34B4005B46BE /* rdar_savepanel_debugTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C554580184F34B4005B46BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C554559184F34B4005B46BE /* rdar-savepanel-debug */;
+			targetProxy = 4C55457F184F34B4005B46BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C554566184F34B4005B46BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C554567184F34B4005B46BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C55456C184F34B4005B46BE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C55456D184F34B4005B46BE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4C554572184F34B4005B46BE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C554573184F34B4005B46BE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4C554584184F34B4005B46BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C554585184F34B4005B46BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C554589184F34B4005B46BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C55458A184F34B4005B46BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C55458C184F34B4005B46BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rdar-savepanel-debug/rdar-savepanel-debug-Prefix.pch";
+				INFOPLIST_FILE = "rdar-savepanel-debug/rdar-savepanel-debug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C55458D184F34B4005B46BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rdar-savepanel-debug/rdar-savepanel-debug-Prefix.pch";
+				INFOPLIST_FILE = "rdar-savepanel-debug/rdar-savepanel-debug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C55458F184F34B4005B46BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rdar-savepanel-debug.app/Contents/MacOS/rdar-savepanel-debug";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rdar-savepanel-debug/rdar-savepanel-debug-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rdar-savepanel-debugTests/rdar-savepanel-debugTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4C554590184F34B4005B46BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rdar-savepanel-debug.app/Contents/MacOS/rdar-savepanel-debug";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rdar-savepanel-debug/rdar-savepanel-debug-Prefix.pch";
+				INFOPLIST_FILE = "rdar-savepanel-debugTests/rdar-savepanel-debugTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C554555184F34B4005B46BE /* Build configuration list for PBXProject "rdar-savepanel-debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C554589184F34B4005B46BE /* Debug */,
+				4C55458A184F34B4005B46BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C55458B184F34B4005B46BE /* Build configuration list for PBXNativeTarget "rdar-savepanel-debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C55458C184F34B4005B46BE /* Debug */,
+				4C55458D184F34B4005B46BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C55458E184F34B4005B46BE /* Build configuration list for PBXNativeTarget "rdar-savepanel-debugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C55458F184F34B4005B46BE /* Debug */,
+				4C554590184F34B4005B46BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C554552184F34B4005B46BE /* Project object */;
+}
