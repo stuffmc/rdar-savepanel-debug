@@ -12,7 +12,21 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    [self click:nil];
+}
+
+- (IBAction)click:(id)sender {
+    NSSavePanel *savepanel = [NSSavePanel savePanel];
+    [savepanel setAllowedFileTypes:@[@"txt"]];
+    [savepanel beginSheetModalForWindow:_window completionHandler:^(NSInteger result) {
+        
+        // Steps to reproduce
+        // - Without Sandboxing (turn it off!), when at this breakpoint, you can type in the Debug Console (e.g. "p result")
+        // - With Sandboxing, you can't! It seems the PowerBox or something is having "control" over the Keyboard Input.
+        // ** Worst even some times when debugging/running is stopped, Xcode doesn't have a Keyboard anymore either, until I restart it!
+        
+        NSLog(@"%ld", (long)result);
+    }];
 }
 
 @end
